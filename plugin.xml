@@ -16,7 +16,7 @@
 	<keywords>datepicker wp8</keywords>
 	<license></license>
 	
-	<js-module src="www/datetimepicker.js" name="datetimepicker">
+	<js-module src="www/datetimepicker.js" name="DateTimePicker">
 		<clobbers target="datetimepicker"/>
 	</js-module>
 	
