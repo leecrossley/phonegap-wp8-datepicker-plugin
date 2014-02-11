@@ -6,11 +6,11 @@ var DateTimePicker = function () {
 };
 
 DateTimePicker.prototype.selectDate = function (onSuccess, onError, value) {
-    exec(onSuccess.bind(null), onError, "DateTimePicker", "selectDate", value);
+    exec(onSuccess.bind(null), onError, "DateTimePicker", "selectDate", [value]);
 };
 
 DateTimePicker.prototype.selectTime = function (onSuccess, onError, value) {
-    exec(onSuccess.bind(null), onError, "DateTimePicker", "selectTime", value);
+    exec(onSuccess.bind(null), onError, "DateTimePicker", "selectTime", [value]);
 };
 
 module.exports = new DateTimePicker();
