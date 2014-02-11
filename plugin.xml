@@ -17,7 +17,7 @@
 	<license></license>
 	
 	<js-module src="www/datetimepicker.js" name="datetimepicker">
-		<clobbers target="navigator.datetimepicker"/>
+		<clobbers target="datetimepicker"/>
 	</js-module>
 	
 	<platform name="wp8">
